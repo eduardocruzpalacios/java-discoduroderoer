@@ -9,9 +9,7 @@ public class PedircadenaPasarminusculaomayuscula
         
         input = JOptionPane.showInputDialog(null,"Por favor, introduce una frase","Introducción",JOptionPane.INFORMATION_MESSAGE);
          
-
-        // true = input a mayusculas
-        // false= output a minusculas
+        // true/false = input a mayúsculas/minúsculas
         boolean isMayus;
         // DIFERENCIA se usa para convertir minúscula a mayúscula. 32 es distancia en tabla ascii de 'a' a 'A' y con el resto de letras
         final int DIFERENCIA = 32;
