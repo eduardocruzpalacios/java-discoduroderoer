@@ -56,17 +56,17 @@ NOTA: Si se introduce un numero menor o igual que 1, directamente es no primo.
 
 Los signos aritméticos disponibles son:
 
-   +: suma los dos operandos.
++ suma los dos operandos.
 
-   -: resta los operandos.
+- resta los operandos.
 
-   *: multiplica los operandos.
+* multiplica los operandos.
 
-   /: divide los operandos, este debe dar un resultado con decimales (double)
+/ divide los operandos, este debe dar un resultado con decimales (double)
 
-   ^:  1º operando como base y 2º como exponente.
+^  1º operando como base y 2º como exponente.
 
-   %:  módulo, resto de la división entre operando1 y operando2.
+%  módulo, resto de la división entre operando1 y operando2.
 
 26) Realizar la suma del 1 al numero que indiquemos, este debe ser mayor que 1.
 
@@ -93,14 +93,19 @@ Los signos aritméticos disponibles son:
 37) Crea el enum Mes, que contenga como parametros el orden (1,2,3,etc) y el numero de dias (febrero tendra 28 dias siempre). Estos datos pueden pedirse por separado, asi que tienes que hacer sus respectivos get. No son necesarios los setters. Create un arrays de Mes (mirate la funcion values), pide un numero por teclado e indica que meses tienen ese numero de dias (toda su informacion). Por ejemplo, si escribes un 28, este te devolvera la informacion de FEBRERO.
 
 38) Pedir números al usuario y cuando el usuario meta un -1 se terminará el programa. Al terminar, mostrará lo siguiente:
-   – mayor numero introducido
-   – menor numero introducido
-   – suma de todos los numeros
-   – suma de los numeros positivos
-   – suma de los numeros negativos
-   – media de la suma (la primera que pido)
+
+– mayor numero introducido
+
+– menor numero introducido
+
+– suma de todos los numeros
+
+– suma de los numeros positivos
+
+– suma de los numeros negativos
+
+– media de la suma (la primera que pido)
 
 El número -1 no contara como número.
 
 39) Realiza un reloj digital que muestre la hora sin parar. Debe esperar un segundo real para darle mas realismo.
-
