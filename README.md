@@ -109,3 +109,15 @@ Los signos aritméticos disponibles son:
 El número -1 no contara como número.
 
 39) Realiza un reloj digital que muestre la hora sin parar. Debe esperar un segundo real para darle mas realismo.
+## Bucles Anidados
+1) Crea una aplicación que dibuje una escalera de asteriscos. Nosotros le pasamos la altura de la escalera por teclado.
+
+2) Crea una aplicación que dibuje una escalera inversa de asteriscos. Nosotros le pasamos la altura de la escalera inversa por teclado.
+
+3) Crea una aplicación que dibuje una escalera de números, siendo cada linea un numero. Nosotros le pasamos la altura por teclado.
+
+4) Crea una aplicación que dibuje una escalera de números, siendo cada linea números empezando en uno y acabando en el numero de la linea.
+
+5) Crea una aplicación que dibuje una pirámide de asteriscos. Nosotros le pasamos la altura de la pirámide por teclado.
+
+6) Crea una aplicación que dibuje una pirámide invertida de asteriscos. Nosotros le pasamos la altura de la pirámide por teclado.
