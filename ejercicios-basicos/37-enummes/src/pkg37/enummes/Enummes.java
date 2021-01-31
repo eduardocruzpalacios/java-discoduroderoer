@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Enummes {
     public static void main(String[] args) {
         Scanner t = new Scanner(System.in);
-         
-        
         
         // instanciar enum Meses con nombre mes3 y tenga propiedades MARZO (orden 3, numDias 31)
         Meses mes3 = Meses.MARZO;
