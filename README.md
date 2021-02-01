@@ -121,3 +121,124 @@ El número -1 no contara como número.
 5) Crea una aplicación que dibuje una pirámide de asteriscos. Nosotros le pasamos la altura de la pirámide por teclado.
 
 6) Crea una aplicación que dibuje una pirámide invertida de asteriscos. Nosotros le pasamos la altura de la pirámide por teclado.
+## Matrices
+1) Crear una matriz de 3×3 con los números del 1 al 9. Mostrar por pantalla la matriz.
+
+2) Crear una matriz de 5 filas y n columnas (se pide al usuario). Rellenar la matriz con números aleatorios entre 0 y 10.
+
+3) Crear dos matrices de nxn y sumar sus valores, los resultados se deben almacenar en otra matriz. Los valores y la longitud serán insertados por el usuario. Mostrar las matrices originales y el resultado.
+
+4) Crear una matriz de 4×4 de números enteros que inicialmente esta vacía. Hacer un menú con estas opciones:
+
+- Rellenar la matriz de números, debes pedírselo al usuario. Hasta que esto no se haga, el resto de opciones no se deberán ejecutar, hay que mostrar un mensaje donde diga que debes rellenar la matriz.
+- Suma de una fila que se pedirá al usuario (controlar que elija una correcta)
+- Suma de una columna que se pedirá al usuario (controlar que elija una correcta)
+- Sumar la diagonal principal
+- Sumar la diagonal inversa
+- La media de todos los valores de la matriz
+
+5) Queremos hacer un programa que muestre la tabla de tipos de Pokémon.
+En la solución os dejo un fichero java con los datos necesarios: la tabla de tipos y los tipos de Pokemon.
+
+Coger el fichero llamado Constantes.java y copiar a caproyecto propio.
+
+Los datos que contiene la tabla de tipos es la siguiente:
+
+- 2 el atacante hace el doble de daño al oponente (Es muy eficaz)
+- 1 el atacante hace un daño neutro al oponente (No se da información)
+- 5 el atacante hace la mitad de daño al oponente (No es muy eficaz)
+- 0 el atacante hace un daño nulo al oponente (No afecta)
+
+Las filas de la matriz corresponden con el Pokemon atacante.
+
+Las columnas, al atacado.
+
+Las opciones que daremos al usuario3 son:
+
+Mostrar debilidades: pedimos uno o dos tipos (pedir al usuario).
+
+Si el usuario pide 1 tipo, mostrar todos los tipos que hacen un daño eficaz a ese tipo.
+
+Si elige dos tipos de pokemon, habrá que ver esos dos tipos y multiplicar las debilidades y mostrar el multiplicador de daño.
+
+Por ejemplo, FUEGO y TIERRA:
+- AGUA : x4 (2 * 2 = 4, doblemente eficaz)
+- TIERRA : x2 (2 * 1 = 2, la tierra es neutro con la tierra)
+- Fíjate que no aparece el tipo ROCA, ya que TIERRA tiene resistencia y hace que un ataque sea neutro (0.5 * 2 = 1)
+
+Mostrar todos los tipos eficaces: pedir tipo y mostrar todos los tipos debiles contra el tipo pedido al usuario.
+
+Mostrar toda la información relativa a un tipo: pedir un tipo y mostrar los demás tipos y su relación con el anterior (neutro, etc.).
+
+Comparar 2 tipos: pedir pokemon (atacante y atacado) y su/s tipo/s. Se informa de si es eficaz, neutro, etc.
+
+6) Generar una matriz de 3×3 con números aleatorios sin repetirse.
+
+7) Generar una matriz de 3×3 con números aleatorios sin repetirse. Realizar la suma de una columna o fila aleatoria.
+
+8) Nos piden que implementemos el software para una máquina expendedora de golosinas. Cada golosina tiene un nombre y un precio para ahorrar tiempo. Los datos son los siguientes:
+
+String[][] nombresGolosinas = {
+ 
+            {"KitKat", "Chicles de fresa", "Lacasitos", "Palotes"},
+ 
+            {"Kinder Bueno", "Bolsa variada Haribo", "Chetoos", "Twix"},
+ 
+            {"Kinder Bueno", "M&M'S", "Papa Delta", "Chicles de menta"},
+ 
+            {"Lacasitos", "Crunch", "Milkybar", "KitKat"}
+ 
+ };
+ 
+double[][] precio = {
+ 
+  {1.1, 0.8, 1.5, 0.9},
+ 
+  {1.8, 1, 1.2, 1},
+ 
+  {1.8, 1.3, 1.2, 0.8},
+ 
+  {1.5, 1.1, 1.1, 1.1}
+ 
+};
+ 
+
+También tendrán una cantidad inicial, que en principio será de 5.
+
+Tendremos un pequeño menú con las siguientes opciones:
+
+- Pedir golosina: pedirá la posición de la golosina que quiera. Esta máquina tiene golosinas en cada posición, identificados por su fila y columna, que será lo que introduzca el usuario al pedir una golosina, por ejemplo si el usuario teclea 20 significa que está pidiendo la golosina que está en la fila 2 columna 0. Cuando no haya más golosinas se le indicará al usuario. Solo puede pedir una golosina y supondremos que el usuario siempre tiene dinero al elegir. Recuerda de disminuir la cantidad la pedir.
+
+- Mostrar golosinas: mostrara todas las golosinas disponibles. Mostrará el código que debe introducir el usuario, el nombre y el precio. La cantidad no se mostrará.
+- Rellenar golosinas: esta es una función exclusiva de un técnico por lo que nos pedirá una contraseña, si el usuario escribe “MaquinaExpendedora2021” le pedirá la posición de la golosina y la cantidad.
+- Apagar maquina: sale del programa, antes de salir mostrará las ventas totales durante la ejecución del programa.
+
+El programa debe ser modular (métodos y funciones).
+
+Las funciones deben ser lo más genéricas posibles.
+
+No se deben utilizar POO para este ejercicio.
+
+9) Vamos a realizar el juego del 3 en raya, donde habrá dos jugadores que tengan que hacer el 3 en raya, los signos serán el X y el O, cuando haya una posición vacía habrá un –
+
+El tablero de juego, será una matriz de 3×3 de char.
+
+El juego termina cuando uno de los jugadores hace 3 en raya o si no hay más posiciones que poner.
+
+El juego debe pedir las posiciones donde el jugador actual quiera poner su marca, esta debe ser validada y no estar marcada anteriormente.
+
+Realízalo de forma modular (métodosy funciones).
+
+10) Crear dos arrays multidimensionales de 2×3 y rellenarlos como se desee (números aleatorios, por teclado o definido al crear el array).
+
+Haz un método que sume los arrays multidimensionales, es decir, la posición 0,0 del array1 con la posición 0,0 del array2, y así sucesivamente. Este método no debe devolver nada, haciendo que deba pasarse 3 array multidimensional como parámetro (los 2 que se suman y en el que se guarda la suma).
+
+Muestra el contenido de cada array multidimensional.
+
+11) Queremos realizar una encuesta a 10 personas, en esta encuesta indicaremos el sexo (1=masculino,2=femenino), si trabaja (1 = sí trabaja, 2 = no trabaja) y su sueldo (si no tiene un trabajo, el valor será un cero) estará entre 600 y 2000 (valor entero). Los valores pueden ser generados aleatoriamente. Calcula y muestra lo siguiente:
+- Porcentaje de hombres (tengan o no trabajo).
+- Porcentaje de mujeres (tengan o no trabajo).
+- Porcentaje de hombres que trabajan.
+- Porcentaje de mujeres que trabajan.
+- El sueldo promedio de las hombres que trabajan.
+- El sueldo promedio de las mujeres que trabajan.
