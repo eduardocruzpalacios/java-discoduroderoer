@@ -38,11 +38,7 @@
 
 19) Pide por teclado un número entero positivo (debemos controlarlo) y muestra  el número de cifras que tiene. Por ejemplo: si introducimos 1250, nos muestre que tiene 4 cifras. Tendremos que controlar si tiene una o mas cifras, al mostrar el mensaje.
 
-20) Pide un número por teclado e indica si es un número primo o no. Un número primo es aquel solo puede dividirse entre 1 y si mismo. Por ejemplo: 25 no es primo, ya que 25 es divisible entre 5, sin embargo, 17 si es primo.
-
-Un buen truco para calcular la raíz cuadrada del numero e ir comprobando que si es divisible desde ese numero hasta 1.
-
-NOTA: Si se introduce un numero menor o igual que 1, directamente es no primo.
+20) Pide un número por teclado e indica si es un número primo o no. Un número primo es aquel solo puede dividirse entre 1 y si mismo. Para saber si es primo, calcular la raíz cuadrada del numero e ir comprobando si es divisible desde ese numero hasta 1. Si se introduce un numero menor o igual que 1, directamente no es primo.
 
 21) Muestra los números primos entre 1 y 100.
 
@@ -50,23 +46,18 @@ NOTA: Si se introduce un numero menor o igual que 1, directamente es no primo.
 
 23) Reemplaza todas las a del String anterior por una e.
 
-24) Recorre el String del ejercicio 22 y transforma cada carácter a su código ASCII. Muestralos en linea recta, separados por un espacio entre cada carácter.
+24) Recorre el String del ejercicio 22 y transforma cada carácter a su código ASCII. Muestralos en línea recta, separados por un espacio entre cada carácter.
 
 25) Crea una aplicación llamada CalculadoraPolacaInversaApp, nos pedirá 2 operandos (int) y un signo aritmético (String), según este último se realizara la operación correspondiente. Al final mostrara el resultado en un cuadro de dialogo.
 
 Los signos aritméticos disponibles son:
 
-+ suma los dos operandos.
-
-- resta los operandos.
-
-* multiplica los operandos.
-
-/ divide los operandos, este debe dar un resultado con decimales (double)
-
-^  1º operando como base y 2º como exponente.
-
-%  módulo, resto de la división entre operando1 y operando2.
+- + suma los dos operandos.
+- - resta los operandos.
+- * multiplica los operandos.
+- / divide los operandos, este debe dar un resultado con decimales (double)
+- ^ 1º operando como base y 2º como exponente.
+- %  módulo, resto de la división entre operando1 y operando2.
 
 26) Realizar la suma del 1 al numero que indiquemos, este debe ser mayor que 1.
 
@@ -95,42 +86,39 @@ Los signos aritméticos disponibles son:
 38) Pedir números al usuario y cuando el usuario meta un -1 se terminará el programa. Al terminar, mostrará lo siguiente:
 
 – mayor numero introducido
-
 – menor numero introducido
-
 – suma de todos los numeros
-
 – suma de los numeros positivos
-
 – suma de los numeros negativos
-
 – media de la suma (la primera que pido)
 
 El número -1 no contara como número.
 
 39) Realiza un reloj digital que muestre la hora sin parar. Debe esperar un segundo real para darle mas realismo.
 ## Bucles Anidados
-1) Crea una aplicación que dibuje una escalera de asteriscos. Nosotros le pasamos la altura de la escalera por teclado.
+1) Crear una aplicación que dibuje una escalera de asteriscos. Pedir la altura de la escalera por teclado.
 
-2) Crea una aplicación que dibuje una escalera inversa de asteriscos. Nosotros le pasamos la altura de la escalera inversa por teclado.
+2) Crear una aplicación que dibuje una escalera inversa de asteriscos. Pedir la altura de la escalera inversa por teclado.
 
-3) Crea una aplicación que dibuje una escalera de números, siendo cada linea un numero. Nosotros le pasamos la altura por teclado.
+3) Crear una aplicación que dibuje una escalera de números, siendo cada línea un numero. Pedir la altura por teclado.
 
-4) Crea una aplicación que dibuje una escalera de números, siendo cada linea números empezando en uno y acabando en el numero de la linea.
+4) Crear una aplicación que dibuje una escalera de números, siendo cada línea números empezando en uno y acabando en el número de la línea.
 
-5) Crea una aplicación que dibuje una pirámide de asteriscos. Nosotros le pasamos la altura de la pirámide por teclado.
+5) Crear una aplicación que dibuje una pirámide de asteriscos. Pedir la altura de la pirámide por teclado.
 
-6) Crea una aplicación que dibuje una pirámide invertida de asteriscos. Nosotros le pasamos la altura de la pirámide por teclado.
+6) Crear una aplicación que dibuje una pirámide invertida de asteriscos. Pedir la altura de la pirámide por teclado.
 ## Matrices
 1) Crear una matriz de 3×3 con los números del 1 al 9. Mostrar por pantalla la matriz.
 
-2) Crear una matriz de 5 filas y n columnas (se pide al usuario). Rellenar la matriz con números aleatorios entre 0 y 10.
+2) Crear una matriz de 5 filas y n columnas (pedir al usuario). Rellenar la matriz con números aleatorios entre 0 y 10.
 
 3) Crear dos matrices de nxn y sumar sus valores, los resultados se deben almacenar en otra matriz. Los valores y la longitud serán insertados por el usuario. Mostrar las matrices originales y el resultado.
 
-4) Crear una matriz de 4×4 de números enteros que inicialmente esta vacía. Hacer un menú con estas opciones:
+4) Crear una matriz de 4×4 de números enteros que inicialmente está vacía.
 
-- Rellenar la matriz de números, debes pedírselo al usuario. Hasta que esto no se haga, el resto de opciones no se deberán ejecutar, hay que mostrar un mensaje donde diga que debes rellenar la matriz.
+Hacer un menú con estas opciones:
+
+- Rellenar la matriz de números (pedir al usuario). Hasta que esto no se haga, el resto de opciones no se podrán ejecutar, hay que mostrar un mensaje donde diga que debes rellenar la matriz
 - Suma de una fila que se pedirá al usuario (controlar que elija una correcta)
 - Suma de una columna que se pedirá al usuario (controlar que elija una correcta)
 - Sumar la diagonal principal
@@ -138,7 +126,6 @@ El número -1 no contara como número.
 - La media de todos los valores de la matriz
 
 5) Queremos hacer un programa que muestre la tabla de tipos de Pokémon.
-En la solución os dejo un fichero java con los datos necesarios: la tabla de tipos y los tipos de Pokemon.
 
 Coger el fichero llamado Constantes.java y copiar a caproyecto propio.
 
@@ -153,9 +140,9 @@ Las filas de la matriz corresponden con el Pokemon atacante.
 
 Las columnas, al atacado.
 
-Las opciones que daremos al usuario3 son:
+Las opciones que daremos al usuario son:
 
-Mostrar debilidades: pedimos uno o dos tipos (pedir al usuario).
+- Mostrar debilidades: pedimos uno o dos tipos (pedir al usuario).
 
 Si el usuario pide 1 tipo, mostrar todos los tipos que hacen un daño eficaz a ese tipo.
 
@@ -166,9 +153,9 @@ Por ejemplo, FUEGO y TIERRA:
 - TIERRA : x2 (2 * 1 = 2, la tierra es neutro con la tierra)
 - Fíjate que no aparece el tipo ROCA, ya que TIERRA tiene resistencia y hace que un ataque sea neutro (0.5 * 2 = 1)
 
-Mostrar todos los tipos eficaces: pedir tipo y mostrar todos los tipos debiles contra el tipo pedido al usuario.
+- Mostrar todos los tipos eficaces: pedir tipo y mostrar todos los tipos debiles contra el tipo pedido al usuario.
 
-Mostrar toda la información relativa a un tipo: pedir un tipo y mostrar los demás tipos y su relación con el anterior (neutro, etc.).
+- Mostrar toda la información relativa a un tipo: pedir un tipo y mostrar los demás tipos y su relación con el anterior (neutro, etc.).
 
 Comparar 2 tipos: pedir pokemon (atacante y atacado) y su/s tipo/s. Se informa de si es eficaz, neutro, etc.
 
@@ -178,7 +165,7 @@ Comparar 2 tipos: pedir pokemon (atacante y atacado) y su/s tipo/s. Se informa d
 
 8) Nos piden que implementemos el software para una máquina expendedora de golosinas. Cada golosina tiene un nombre y un precio para ahorrar tiempo. Los datos son los siguientes:
 
-String[][] nombresGolosinas = {
+            String[][] nombresGolosinas = {
  
             {"KitKat", "Chicles de fresa", "Lacasitos", "Palotes"},
  
@@ -188,27 +175,25 @@ String[][] nombresGolosinas = {
  
             {"Lacasitos", "Crunch", "Milkybar", "KitKat"}
  
- };
+             };
  
-double[][] precio = {
+            double[][] precio = {
  
-  {1.1, 0.8, 1.5, 0.9},
+            {1.1, 0.8, 1.5, 0.9},
  
-  {1.8, 1, 1.2, 1},
+            {1.8, 1, 1.2, 1},
  
-  {1.8, 1.3, 1.2, 0.8},
+            {1.8, 1.3, 1.2, 0.8},
  
-  {1.5, 1.1, 1.1, 1.1}
+            {1.5, 1.1, 1.1, 1.1}
  
-};
+            };
  
-
 También tendrán una cantidad inicial, que en principio será de 5.
 
 Tendremos un pequeño menú con las siguientes opciones:
 
 - Pedir golosina: pedirá la posición de la golosina que quiera. Esta máquina tiene golosinas en cada posición, identificados por su fila y columna, que será lo que introduzca el usuario al pedir una golosina, por ejemplo si el usuario teclea 20 significa que está pidiendo la golosina que está en la fila 2 columna 0. Cuando no haya más golosinas se le indicará al usuario. Solo puede pedir una golosina y supondremos que el usuario siempre tiene dinero al elegir. Recuerda de disminuir la cantidad la pedir.
-
 - Mostrar golosinas: mostrara todas las golosinas disponibles. Mostrará el código que debe introducir el usuario, el nombre y el precio. La cantidad no se mostrará.
 - Rellenar golosinas: esta es una función exclusiva de un técnico por lo que nos pedirá una contraseña, si el usuario escribe “MaquinaExpendedora2021” le pedirá la posición de la golosina y la cantidad.
 - Apagar maquina: sale del programa, antes de salir mostrará las ventas totales durante la ejecución del programa.
@@ -221,21 +206,23 @@ No se deben utilizar POO para este ejercicio.
 
 9) Vamos a realizar el juego del 3 en raya, donde habrá dos jugadores que tengan que hacer el 3 en raya, los signos serán el X y el O, cuando haya una posición vacía habrá un –
 
-El tablero de juego, será una matriz de 3×3 de char.
+El tablero de juego será una matriz de 3×3 de char.
 
 El juego termina cuando uno de los jugadores hace 3 en raya o si no hay más posiciones que poner.
 
 El juego debe pedir las posiciones donde el jugador actual quiera poner su marca, esta debe ser validada y no estar marcada anteriormente.
 
-Realízalo de forma modular (métodosy funciones).
+Realizar el juego de forma modular (métodos y funciones).
 
 10) Crear dos arrays multidimensionales de 2×3 y rellenarlos como se desee (números aleatorios, por teclado o definido al crear el array).
 
-Haz un método que sume los arrays multidimensionales, es decir, la posición 0,0 del array1 con la posición 0,0 del array2, y así sucesivamente. Este método no debe devolver nada, haciendo que deba pasarse 3 array multidimensional como parámetro (los 2 que se suman y en el que se guarda la suma).
+Hacer un método que sume los arrays multidimensionales, es decir, la posición 0,0 del array1 con la posición 0,0 del array2, y así sucesivamente. Este método no debe devolver nada, haciendo que deba pasarse 3 array multidimensional como parámetro (los 2 que se suman y en el que se guarda la suma).
 
-Muestra el contenido de cada array multidimensional.
+Mostrar el contenido de cada array multidimensional.
 
-11) Queremos realizar una encuesta a 10 personas, en esta encuesta indicaremos el sexo (1=masculino,2=femenino), si trabaja (1 = sí trabaja, 2 = no trabaja) y su sueldo (si no tiene un trabajo, el valor será un cero) estará entre 600 y 2000 (valor entero). Los valores pueden ser generados aleatoriamente. Calcula y muestra lo siguiente:
+11) Queremos realizar una encuesta a 10 personas, en esta encuesta indicaremos el sexo (1=masculino,2=femenino), si trabaja (1 = sí trabaja, 2 = no trabaja) y su sueldo (si no tiene un trabajo, el valor será un cero) estará entre 600 y 2000 (valor entero). Los valores pueden ser generados aleatoriamente.
+
+Calcula y muestra lo siguiente:
 - Porcentaje de hombres (tengan o no trabajo).
 - Porcentaje de mujeres (tengan o no trabajo).
 - Porcentaje de hombres que trabajan.
