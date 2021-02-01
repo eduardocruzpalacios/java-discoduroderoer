@@ -138,22 +138,10 @@ Los datos que contiene la tabla de tipos es la siguiente:
 Las filas de la matriz corresponden con el Pokémon atacante. Las columnas, al atacado.
 
 Las opciones que daremos al usuario son:
-- Mostrar debilidades: pedimos uno o dos tipos (pedir al usuario).
-
-Si el usuario pide 1 tipo, mostrar todos los tipos que hacen un daño eficaz a ese tipo.
-
-Si elige dos tipos de pokémon, habrá que ver esos dos tipos y multiplicar las debilidades y mostrar el multiplicador de daño.
-
-Por ejemplo, FUEGO y TIERRA:
-- AGUA : x4 (2 * 2 = 4, doblemente eficaz)
-- TIERRA : x2 (2 * 1 = 2, la tierra es neutro con la tierra)
-- Fíjate que no aparece el tipo ROCA, ya que TIERRA tiene resistencia y hace que un ataque sea neutro (0.5 * 2 = 1)
-
+- Mostrar debilidades: pedimos uno o dos tipos (pedir al usuario). Si el usuario pide 1 tipo, mostrar todos los tipos que hacen un daño eficaz a ese tipo. Si elige dos tipos de pokémon, habrá que ver esos dos tipos y multiplicar las debilidades y mostrar el multiplicador de daño. Por ejemplo, FUEGO y TIERRA. AGUA: x4 (2 * 2 = 4, doblemente eficaz). TIERRA: x2 (2 * 1 = 2, la tierra es neutro con la tierra). Fíjate en que no aparece el tipo ROCA, ya que TIERRA tiene resistencia y hace que un ataque sea neutro (0.5 * 2 = 1).
 - Mostrar todos los tipos eficaces: pedir tipo y mostrar todos los tipos débiles contra el tipo pedido al usuario.
-
 - Mostrar toda la información relativa a un tipo: pedir un tipo y mostrar los demás tipos y su relación con el anterior (neutro, etc.).
-
-Comparar 2 tipos: pedir pokémon (atacante y atacado) y su/s tipo/s. Se informa de si es eficaz, neutro, etc.
+- Comparar 2 tipos: pedir pokémon (atacante y atacado) y su/s tipo/s. Se informa de si es eficaz, neutro, etc.
 
 6) Generar una matriz de 3×3 con números aleatorios sin repetirse.
 
