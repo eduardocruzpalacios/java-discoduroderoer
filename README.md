@@ -14,9 +14,9 @@
 
 7) Lee un número por teclado y muestra por consola el carácter al que pertenece en la tabla ASCII. Por ejemplo: si introduzco 97, muestra a.
 
-8) Modifica el ejercicio anterior, para que en lugar de pedir un número, pida un carácter (char) y muestre su código en la tabla ASCII.
+8) Modifica el ejercicio anterior, para que, en lugar de pedir un número, pida un carácter (char) y muestre su código en la tabla ASCII.
 
-9) Lee un número por teclado que pida el precio de un producto (puede tener decimales) y calcule el precio final con IVA. El IVA sera una constante que sera del 21%.
+9) Lee un número por teclado que pida el precio de un producto (puede tener decimales) y calcule el precio final con IVA. El IVA será una constante que será del 21%.
 
 10) Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while.
 
@@ -28,17 +28,17 @@
 
 14) Realiza una aplicación que nos calcule una ecuación de segundo grado. Debes pedir las variables a, b y c por teclado y comprobar antes el discriminante (operación en la raíz cuadrada). Para la raíz cuadrada usa el método sqlrt de Math.
 
-15) Lee un número por teclado y comprueba que este numero es mayor o igual que cero, si no lo es lo volverá a pedir (do while), después muestra ese número por consola.
+15) Lee un número por teclado y comprueba que este número es mayor o igual que cero, si no lo es lo volverá a pedir (do while), después muestra ese número por consola.
 
 16) Escribe una aplicación con un String que contenga una contraseña cualquiera. Después se te pedirá que introduzcas la contraseña, con 3 intentos. Cuando aciertes ya no pedirá más la contraseña y mostrará un mensaje diciendo “Enhorabuena”. Piensa bien en la condición de salida (3 intentos y si acierta sale, aunque le queden intentos).
 
-17) Crea una aplicación que nos pida un día de la semana y que nos diga si es un dia laboral o no. Usa un switch para ello.
+17) Crea una aplicación que nos pida un día de la semana y que nos diga si es un día laboral o no. Usa un switch para ello.
 
 18) Pide por teclado dos números y genera 10 números aleatorios entre esos números. Usa el método Math.random para generar un número entero aleatorio (recuerda el casting de double a int).
 
-19) Pide por teclado un número entero positivo (debemos controlarlo) y muestra  el número de cifras que tiene. Por ejemplo: si introducimos 1250, nos muestre que tiene 4 cifras. Tendremos que controlar si tiene una o mas cifras, al mostrar el mensaje.
+19) Pide por teclado un número entero positivo (debemos controlarlo) y muestra el número de cifras que tiene. Por ejemplo: si introducimos 1250, se muestra que tiene 4 cifras. Tendremos que controlar si tiene una o más cifras, al mostrar el mensaje.
 
-20) Pide un número por teclado e indica si es un número primo o no. Un número primo es aquel solo puede dividirse entre 1 y si mismo. Para saber si es primo, calcular la raíz cuadrada del numero e ir comprobando si es divisible desde ese numero hasta 1. Si se introduce un numero menor o igual que 1, directamente no es primo.
+20) Pide un número por teclado e indica si es un número primo o no. Un número primo es aquel solo puede dividirse entre 1 y si mismo. Para saber si es primo, calcular la raíz cuadrada del número e ir comprobando si es divisible desde ese número hasta 1. Si se introduce un número menor o igual que 1, directamente no es primo.
 
 21) Muestra los números primos entre 1 y 100.
 
@@ -46,9 +46,9 @@
 
 23) Reemplaza todas las a del String anterior por una e.
 
-24) Recorre el String del ejercicio 22 y transforma cada carácter a su código ASCII. Muestralos en línea recta, separados por un espacio entre cada carácter.
+24) Recorre el String del ejercicio 22 y transforma cada carácter a su código ASCII. Muéstralos en línea recta, separados por un espacio entre cada carácter.
 
-25) Crea una aplicación llamada CalculadoraPolacaInversaApp, nos pedirá 2 operandos (int) y un signo aritmético (String), según este último se realizara la operación correspondiente. Al final mostrara el resultado en un cuadro de dialogo.
+25) Crea una aplicación llamada CalculadoraPolacaInversaApp, nos pedirá 2 operandos (int) y un signo aritmético (String), según este último se realizará la operación correspondiente. Al final mostrara el resultado en un cuadro de díalogo.
 
 Los signos aritméticos disponibles son:
 
@@ -59,13 +59,13 @@ Los signos aritméticos disponibles son:
 - ^ 1º operando como base y 2º como exponente.
 - %  módulo, resto de la división entre operando1 y operando2.
 
-26) Realizar la suma del 1 al numero que indiquemos, este debe ser mayor que 1.
+26) Realizar la suma del 1 al número que indiquemos, este debe ser mayor que 1.
 
-27) Crear una aplicación que nos permite insertar números hasta que insertemos un -1. Calcular el numero de números introducidos.
+27) Crear una aplicación que nos permite insertar números hasta que insertemos un -1. Calcular el número de números introducidos.
 
 28) Eliminar los espacios de una frase pasada por consola por el usuario.
 
-29) Pedir al usuario que nos escriba frases de forma infinita hasta que insertemos una cadena vacia. Muestra la cadena resultante de concatenar todas las frases introducidas.
+29) Pedir al usuario que nos escriba frases de forma infinita hasta que insertemos una cadena vacía. Muestra la cadena resultante de concatenar todas las frases introducidas.
 
 30) Convertir una frase a mayúsculas o minúsculas, que daremos opción a que el usuario lo pida y mostraremos el resultado por pantalla.
 
@@ -81,18 +81,18 @@ Los signos aritméticos disponibles son:
 
 36) Modifica el anterior enum para indicar que es día laborable directamente (usar toString).
 
-37) Crea el enum Mes, que contenga como parametros el orden (1,2,3,etc) y el numero de dias (febrero tendra 28 dias siempre). Estos datos pueden pedirse por separado, asi que tienes que hacer sus respectivos get. No son necesarios los setters. Create un arrays de Mes (mirate la funcion values), pide un numero por teclado e indica que meses tienen ese numero de dias (toda su informacion). Por ejemplo, si escribes un 28, este te devolvera la informacion de FEBRERO.
+37) Crea el enum Mes, que contenga como parámetros el orden (1,2,3,etc) y el número de días (febrero tendra 28 días siempre). Estos datos pueden pedirse por separado, así que tienes que hacer sus respectivos get. No son necesarios los setters. Crear un arrays de Mes, pedir un número por teclado e indica qué meses tienen ese número de días.
 
-38) Pedir números al usuario y cuando el usuario meta un -1 se terminará el programa. Al terminar, mostrará lo siguiente:
+38) Pedir números al usuario y cuando el usuario meta un -1 el programa se terminará. Al terminar, mostrar lo siguiente:
 
-– mayor numero introducido
-– menor numero introducido
-– suma de todos los numeros
-– suma de los numeros positivos
-– suma de los numeros negativos
-– media de la suma (la primera que pido)
+– mayor número introducido
+– menor número introducido
+– suma de todos los números
+– suma de los números positivos
+– suma de los números negativos
+– medía de la suma (la primera que pido)
 
-El número -1 no contara como número.
+El número -1 no contará como número.
 
 39) Realiza un reloj digital que muestre la hora sin parar. Debe esperar un segundo real para darle mas realismo.
 ## Bucles Anidados
@@ -100,7 +100,7 @@ El número -1 no contara como número.
 
 2) Crear una aplicación que dibuje una escalera inversa de asteriscos. Pedir la altura de la escalera inversa por teclado.
 
-3) Crear una aplicación que dibuje una escalera de números, siendo cada línea un numero. Pedir la altura por teclado.
+3) Crear una aplicación que dibuje una escalera de números, siendo cada línea un número. Pedir la altura por teclado.
 
 4) Crear una aplicación que dibuje una escalera de números, siendo cada línea números empezando en uno y acabando en el número de la línea.
 
@@ -121,43 +121,39 @@ Hacer un menú con estas opciones:
 - Rellenar la matriz de números (pedir al usuario). Hasta que esto no se haga, el resto de opciones no se podrán ejecutar, hay que mostrar un mensaje donde diga que debes rellenar la matriz
 - Suma de una fila que se pedirá al usuario (controlar que elija una correcta)
 - Suma de una columna que se pedirá al usuario (controlar que elija una correcta)
-- Sumar la diagonal principal
-- Sumar la diagonal inversa
-- La media de todos los valores de la matriz
+- Sumar la díagonal principal
+- Sumar la díagonal inversa
+- La medía de todos los valores de la matriz
 
 5) Queremos hacer un programa que muestre la tabla de tipos de Pokémon.
 
-Coger el fichero llamado Constantes.java y copiar a caproyecto propio.
+Coger el fichero llamado Constantes.java y copiar al proyecto propio.
 
 Los datos que contiene la tabla de tipos es la siguiente:
-
 - 2 el atacante hace el doble de daño al oponente (Es muy eficaz)
 - 1 el atacante hace un daño neutro al oponente (No se da información)
 - 5 el atacante hace la mitad de daño al oponente (No es muy eficaz)
 - 0 el atacante hace un daño nulo al oponente (No afecta)
 
-Las filas de la matriz corresponden con el Pokemon atacante.
-
-Las columnas, al atacado.
+Las filas de la matriz corresponden con el Pokémon atacante. Las columnas, al atacado.
 
 Las opciones que daremos al usuario son:
-
 - Mostrar debilidades: pedimos uno o dos tipos (pedir al usuario).
 
 Si el usuario pide 1 tipo, mostrar todos los tipos que hacen un daño eficaz a ese tipo.
 
-Si elige dos tipos de pokemon, habrá que ver esos dos tipos y multiplicar las debilidades y mostrar el multiplicador de daño.
+Si elige dos tipos de pokémon, habrá que ver esos dos tipos y multiplicar las debilidades y mostrar el multiplicador de daño.
 
 Por ejemplo, FUEGO y TIERRA:
 - AGUA : x4 (2 * 2 = 4, doblemente eficaz)
 - TIERRA : x2 (2 * 1 = 2, la tierra es neutro con la tierra)
 - Fíjate que no aparece el tipo ROCA, ya que TIERRA tiene resistencia y hace que un ataque sea neutro (0.5 * 2 = 1)
 
-- Mostrar todos los tipos eficaces: pedir tipo y mostrar todos los tipos debiles contra el tipo pedido al usuario.
+- Mostrar todos los tipos eficaces: pedir tipo y mostrar todos los tipos débiles contra el tipo pedido al usuario.
 
 - Mostrar toda la información relativa a un tipo: pedir un tipo y mostrar los demás tipos y su relación con el anterior (neutro, etc.).
 
-Comparar 2 tipos: pedir pokemon (atacante y atacado) y su/s tipo/s. Se informa de si es eficaz, neutro, etc.
+Comparar 2 tipos: pedir pokémon (atacante y atacado) y su/s tipo/s. Se informa de si es eficaz, neutro, etc.
 
 6) Generar una matriz de 3×3 con números aleatorios sin repetirse.
 
@@ -193,7 +189,7 @@ También tendrán una cantidad inicial, que en principio será de 5.
 
 Tendremos un pequeño menú con las siguientes opciones:
 
-- Pedir golosina: pedirá la posición de la golosina que quiera. Esta máquina tiene golosinas en cada posición, identificados por su fila y columna, que será lo que introduzca el usuario al pedir una golosina, por ejemplo si el usuario teclea 20 significa que está pidiendo la golosina que está en la fila 2 columna 0. Cuando no haya más golosinas se le indicará al usuario. Solo puede pedir una golosina y supondremos que el usuario siempre tiene dinero al elegir. Recuerda de disminuir la cantidad la pedir.
+- Pedir golosina: pedirá la posición de la golosina que quiera. Esta máquina tiene golosinas en cada posición, identificados por su fila y columna, que será lo que introduzca el usuario al pedir una golosina, por ejemplo, si el usuario teclea 20 significa que está pidiendo la golosina que está en la fila 2 columna 0. Cuando no haya más golosinas se le indicará al usuario. Solo puede pedir una golosina y supondremos que el usuario siempre tiene dinero al elegir. Recuerda de disminuir la cantidad la pedir.
 - Mostrar golosinas: mostrara todas las golosinas disponibles. Mostrará el código que debe introducir el usuario, el nombre y el precio. La cantidad no se mostrará.
 - Rellenar golosinas: esta es una función exclusiva de un técnico por lo que nos pedirá una contraseña, si el usuario escribe “MaquinaExpendedora2021” le pedirá la posición de la golosina y la cantidad.
 - Apagar maquina: sale del programa, antes de salir mostrará las ventas totales durante la ejecución del programa.
@@ -223,9 +219,9 @@ Mostrar el contenido de cada array multidimensional.
 11) Queremos realizar una encuesta a 10 personas, en esta encuesta indicaremos el sexo (1=masculino,2=femenino), si trabaja (1 = sí trabaja, 2 = no trabaja) y su sueldo (si no tiene un trabajo, el valor será un cero) estará entre 600 y 2000 (valor entero). Los valores pueden ser generados aleatoriamente.
 
 Calcula y muestra lo siguiente:
-- Porcentaje de hombres (tengan o no trabajo).
-- Porcentaje de mujeres (tengan o no trabajo).
-- Porcentaje de hombres que trabajan.
-- Porcentaje de mujeres que trabajan.
-- El sueldo promedio de las hombres que trabajan.
-- El sueldo promedio de las mujeres que trabajan.
+- Porcentaje de hombres (tengan o no trabajo)
+- Porcentaje de mujeres (tengan o no trabajo)
+- Porcentaje de hombres que trabajan
+- Porcentaje de mujeres que trabajan
+- El sueldo promedio de los hombres que trabajan
+- El sueldo promedio de las mujeres que trabajan
