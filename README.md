@@ -112,7 +112,7 @@ El número -1 no contará como número.
 
 2) Crear una matriz de 5 filas y n columnas (pedir al usuario). Rellenar la matriz con números aleatorios entre 0 y 10.
 
-3) Crear dos matrices de nxn y sumar sus valores, los resultados se deben almacenar en otra matriz. Los valores y la longitud serán insertados por el usuario. Mostrar las matrices originales y el resultado.
+3) Crear dos matrices de nxn y sumar sus valores, los resultados se deben almacenar en otra matriz. El tamaño de las matrices es irrelevante. Rellenarlas de manera automática.
 
 4) Crear una matriz de 4×4 de números enteros que inicialmente está vacía.
 

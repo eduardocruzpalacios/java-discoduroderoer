@@ -1,7 +1,9 @@
 package pkg02.matriz.pedirtamano.rellenarnumerosautomaticos;
 import java.util.Scanner;
-public class MatrizPedirtamanoRellenarnumerosautomaticos {
-    public static void main(String[] args) {
+public class MatrizPedirtamanoRellenarnumerosautomaticos
+{
+    public static void main(String[] args)
+    {
         // instanciar clase Scanner y declarar columnas
         Scanner t = new Scanner(System.in);
         int columnas=0;
