@@ -213,7 +213,7 @@ public class Matriz4x4MenuOperaciones
             {
                 System.out.println("NO elegiste una opción del menú, try again");
             }
-            // este decremento hace buble infinito a menos meter salir
+            // este decremento hace bucle infinito a menos meter salir
             a--;
         }
         // fin programa
