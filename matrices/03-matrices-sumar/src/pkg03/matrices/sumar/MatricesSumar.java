@@ -14,7 +14,7 @@ public class MatricesSumar
         // rellenar matrices 1 y 2 con números aleatorios 0-10, sumarlas en matriz3
         for ( int a=0 ; a<matriz1.length ; a++ )
         {
-            for ( int b=0 ; b<matriz1[a].length ; b++)
+            for ( int b=0 ; b<matriz1[a].length ; b++ )
             {
                 // casting double --> int
                 matriz1[a][b] = (int) (Math.random()*10);
@@ -27,7 +27,7 @@ public class MatricesSumar
         System.out.println("MATRIZ 1\n");
         for ( int a=0 ; a<matriz1.length ; a++ )
         {
-            for ( int b=0 ; b<matriz1[a].length ; b++)
+            for ( int b=0 ; b<matriz1[a].length ; b++ )
             {
                 System.out.print(matriz1[a][b]+"\t");
             }
@@ -37,7 +37,7 @@ public class MatricesSumar
         System.out.println("\nMATRIZ 2\n");
         for ( int a=0 ; a<matriz2.length ; a++ )
         {
-            for ( int b=0 ; b<matriz2[a].length ; b++)
+            for ( int b=0 ; b<matriz2[a].length ; b++ )
             {
                 System.out.print(matriz2[a][b]+"\t");
             }

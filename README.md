@@ -121,9 +121,10 @@ Hacer un menú con estas opciones:
 - Rellenar la matriz de números (pedir al usuario). Hasta que esto no se haga, el resto de opciones no se podrán ejecutar, hay que mostrar un mensaje donde diga que debes rellenar la matriz
 - Suma de una fila que se pedirá al usuario (controlar que elija una correcta)
 - Suma de una columna que se pedirá al usuario (controlar que elija una correcta)
-- Sumar la díagonal principal
-- Sumar la díagonal inversa
+- Sumar la diagonal principal
+- Sumar la diagonal inversa
 - La medía de todos los valores de la matriz
+- Salir del programa
 
 5) Queremos hacer un programa que muestre la tabla de tipos de Pokémon.
 
