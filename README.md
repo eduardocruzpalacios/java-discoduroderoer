@@ -126,23 +126,15 @@ Hacer un menú con estas opciones:
 - La medía de todos los valores de la matriz
 - Salir del programa
 
-5) Queremos hacer un programa que muestre la tabla de tipos de Pokémon.
-
-Coger el fichero llamado Constantes.java y copiar al proyecto propio.
-
-Los datos que contiene la tabla de tipos es la siguiente:
-- 2 el atacante hace el doble de daño al oponente (Es muy eficaz)
-- 1 el atacante hace un daño neutro al oponente (No se da información)
-- 5 el atacante hace la mitad de daño al oponente (No es muy eficaz)
-- 0 el atacante hace un daño nulo al oponente (No afecta)
+5) Dado un Array con 18 tipos de pokémon (2º generación) y una matriz de 2 dimensiones donde se guarda el multiplicador de daño de tipoAtaque a tipoDefensor.
 
 Las filas de la matriz corresponden con el Pokémon atacante. Las columnas, al atacado.
 
 Las opciones que daremos al usuario son:
-- Mostrar debilidades: pedimos uno o dos tipos (pedir al usuario). Si el usuario pide 1 tipo, mostrar todos los tipos que hacen un daño eficaz a ese tipo. Si elige dos tipos de pokémon, habrá que ver esos dos tipos y multiplicar las debilidades y mostrar el multiplicador de daño. Por ejemplo, FUEGO y TIERRA. AGUA: x4 (2 * 2 = 4, doblemente eficaz). TIERRA: x2 (2 * 1 = 2, la tierra es neutro con la tierra). Fíjate en que no aparece el tipo ROCA, ya que TIERRA tiene resistencia y hace que un ataque sea neutro (0.5 * 2 = 1).
-- Mostrar todos los tipos eficaces: pedir tipo y mostrar todos los tipos débiles contra el tipo pedido al usuario.
-- Mostrar toda la información relativa a un tipo: pedir un tipo y mostrar los demás tipos y su relación con el anterior (neutro, etc.).
-- Comparar 2 tipos: pedir pokémon (atacante y atacado) y su/s tipo/s. Se informa de si es eficaz, neutro, etc.
+- ATAQUE TIPO X --> 1 Pokémon TIPO X. Pedir ambos tipos y sacar el multiplicador de ataque.
+- ATAQUE TIPO X --> 1 Pokémon TIPO X e Y. Pedir los 3 tipos y sacar el multiplicador de ataque.
+- ATAQUE TIPO X --> listado todos los tipos. Pedir un tipo. Sacar multiplicador de ataque con resto de tipos.
+- Salir
 
 6) Generar una matriz de 3×3 con números aleatorios sin repetirse.
 
