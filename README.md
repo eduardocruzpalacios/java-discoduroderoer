@@ -149,8 +149,8 @@ Cada golosina tiene un nombre y un precio. Cada una tendrá una cantidad inicial
 Hacer un menú con las siguientes opciones:
 
 - Pedir golosina: pedir posición de golosina. Si no quedan golosinas, se indica al usuario. Solo se puede pedir una golosina de una vez. Suponemos que el usuario siempre tiene dinero. Recuerda disminuir la cantidad después de pedir.
-- Mostrar golosinas: mostrar todas las golosinas disponibles. Mostrar el código que debe introducir el usuario, el nombre y el precio. No mostar la cantidad.
-- Reponer golosinas: es una función exclusiva de un técnico, por lo que hay que pedir una contraseña (“MaquinaExpendedora2021”). Si se introduce bien, pedir posición de la golosina y la cantidad a reponer.
+- Mostrar golosinas: mostrar todas las golosinas disponibles. Mostrar el código que debe introducir el usuario, el nombre, el precio y la cantidad.
+- Reponer golosina: es una función exclusiva de un técnico, por lo que hay que pedir una contraseña (“MaquinaExpendedora2021”). Si se introduce bien, pedir posición de la golosina y la cantidad a reponer.
 - Apagar maquina: salir del programa. Antes de salir, mostrar las ventas totales durante la ejecución del programa.
 
 El programa debe ser modular (métodos y funciones) sin POO.
