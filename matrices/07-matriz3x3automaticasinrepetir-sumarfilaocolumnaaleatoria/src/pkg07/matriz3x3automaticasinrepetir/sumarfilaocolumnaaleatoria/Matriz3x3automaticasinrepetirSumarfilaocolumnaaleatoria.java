@@ -16,6 +16,7 @@ public class Matriz3x3automaticasinrepetirSumarfilaocolumnaaleatoria
             {
                 matriz[i][j] = numeros[ ( matriz.length * i ) + j ];
                 /* posiciones que se rellenan con numeros[ ( matriz.length * i ) + j ]
+                j es 0-2 porque en bucle 2 condición es j<matriz[0].length y no j<matriz[i].length
                 
                 (3 * 0) + 0 = 0
                 (3 * 0) + 1 = 1

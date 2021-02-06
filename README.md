@@ -140,46 +140,20 @@ Las opciones que daremos al usuario son:
 
 7) Generar una matriz de 3×3 con números aleatorios sin repetirse. Realizar la suma de una columna o fila aleatoria.
 
-8) Nos piden que implementemos el software para una máquina expendedora de golosinas. Cada golosina tiene un nombre y un precio para ahorrar tiempo. Los datos son los siguientes:
+8) Dadas 2 matrices que contienen, uno, el nombre de snacks, y, otro, su precio.
 
-            String[][] nombresGolosinas = {
- 
-            {"KitKat", "Chicles de fresa", "Lacasitos", "Palotes"},
- 
-            {"Kinder Bueno", "Bolsa variada Haribo", "Chetoos", "Twix"},
- 
-            {"Kinder Bueno", "M&M'S", "Papa Delta", "Chicles de menta"},
- 
-            {"Lacasitos", "Crunch", "Milkybar", "KitKat"}
- 
-             };
- 
-            double[][] precio = {
- 
-            {1.1, 0.8, 1.5, 0.9},
- 
-            {1.8, 1, 1.2, 1},
- 
-            {1.8, 1.3, 1.2, 0.8},
- 
-            {1.5, 1.1, 1.1, 1.1}
- 
-            };
- 
-También tendrán una cantidad inicial, que en principio será de 5.
+Implementar un software para una máquina expendedora de golosinas. Estas golosinas están identificadas por su fila y columna.
 
-Tendremos un pequeño menú con las siguientes opciones:
+Cada golosina tiene un nombre y un precio. Cada una tendrá una cantidad inicial de 5.
 
-- Pedir golosina: pedirá la posición de la golosina que quiera. Esta máquina tiene golosinas en cada posición, identificados por su fila y columna, que será lo que introduzca el usuario al pedir una golosina, por ejemplo, si el usuario teclea 20 significa que está pidiendo la golosina que está en la fila 2 columna 0. Cuando no haya más golosinas se le indicará al usuario. Solo puede pedir una golosina y supondremos que el usuario siempre tiene dinero al elegir. Recuerda de disminuir la cantidad la pedir.
-- Mostrar golosinas: mostrara todas las golosinas disponibles. Mostrará el código que debe introducir el usuario, el nombre y el precio. La cantidad no se mostrará.
-- Rellenar golosinas: esta es una función exclusiva de un técnico por lo que nos pedirá una contraseña, si el usuario escribe “MaquinaExpendedora2021” le pedirá la posición de la golosina y la cantidad.
-- Apagar maquina: sale del programa, antes de salir mostrará las ventas totales durante la ejecución del programa.
+Hacer un menú con las siguientes opciones:
 
-El programa debe ser modular (métodos y funciones).
+- Pedir golosina: pedir posición de golosina. Si no quedan golosinas, se indica al usuario. Solo se puede pedir una golosina de una vez. Suponemos que el usuario siempre tiene dinero. Recuerda disminuir la cantidad después de pedir.
+- Mostrar golosinas: mostrar todas las golosinas disponibles. Mostrar el código que debe introducir el usuario, el nombre y el precio. No mostar la cantidad.
+- Reponer golosinas: es una función exclusiva de un técnico, por lo que hay que pedir una contraseña (“MaquinaExpendedora2021”). Si se introduce bien, pedir posición de la golosina y la cantidad a reponer.
+- Apagar maquina: salir del programa. Antes de salir, mostrar las ventas totales durante la ejecución del programa.
 
-Las funciones deben ser lo más genéricas posibles.
-
-No se deben utilizar POO para este ejercicio.
+El programa debe ser modular (métodos y funciones) sin POO.
 
 9) Vamos a realizar el juego del 3 en raya, donde habrá dos jugadores que tengan que hacer el 3 en raya, los signos serán el X y el O, cuando haya una posición vacía habrá un –
 
