@@ -153,30 +153,39 @@ Hacer un menú con las siguientes opciones:
 - Reponer golosina: es una función exclusiva de un técnico, por lo que hay que pedir una contraseña (“MaquinaExpendedora2021”). Si se introduce bien, pedir posición de la golosina y la cantidad a reponer.
 - Apagar maquina: salir del programa. Antes de salir, mostrar las ventas totales durante la ejecución del programa.
 
-El programa debe ser modular (métodos y funciones) sin POO.
+El programa debe ser 10-modular (métodos y funciones) sin POO.
 
-9) Vamos a realizar el juego del 3 en raya, donde habrá dos jugadores que tengan que hacer el 3 en raya, los signos serán el X y el O, cuando haya una posición vacía habrá un –
+9) Vamos a realizar el juego del 3 en raya con 2 jugadores.
 
-El tablero de juego será una matriz de 3×3 de char.
+Los signos de los jugadores deben ser X y O.
 
-El juego termina cuando uno de los jugadores hace 3 en raya o si no hay más posiciones que poner.
+El signo de una posición vacía debe ser -.
 
-El juego debe pedir las posiciones donde el jugador actual quiera poner su marca, esta debe ser validada y no estar marcada anteriormente.
+El tablero de juego será una matriz multidimensional 3×3 de tipo de dato char.
+
+El juego termina cuando 1) un jugadores hace 3 en raya; o 2) no haya posiciones vacías.
+
+El juego debe pedir las posiciones donde el jugador actual quiera poner su signo, que debe ser validada y no estar marcada anteriormente.
 
 Realizar el juego de forma modular (métodos y funciones).
 
-10) Crear dos arrays multidimensionales de 3×3 y rellenarlos como se desee (números aleatorios, por teclado o definido al crear el array).
+10) Crear 2 Array multidimensionales n×n y rellenarlos cómo se desee. Crear otro Array y no rellenarlo.
 
-Hacer un método que sume los arrays multidimensionales, es decir, la posición 0,0 del array1 con la posición 0,0 del array2, y así sucesivamente. Este método no debe devolver nada, haciendo que deba pasarse 3 array multidimensional como parámetro (los 2 que se suman y en el que se guarda la suma).
+Hacer un método que sume los Array multidimensionales (posición 0,0 de Array 1 + posición 0,0 de Array 2 = posición 0,0 de Array 3). El método no debe devolver nada, y recibe los 3 Array multidimensionales como parámetros (los 2 que se suman y en el que se guarda la suma).
 
 Mostrar el contenido de cada array multidimensional.
 
-11) Queremos realizar una encuesta a 10 personas, en esta encuesta indicaremos el sexo (1=masculino,2=femenino), si trabaja (1 = sí trabaja, 2 = no trabaja) y su sueldo (si no tiene un trabajo, el valor será un cero) estará entre 600 y 2000 (valor entero). Los valores pueden ser generados aleatoriamente.
+11) Suponer que se ha realizado una encuesta a 10 personas preguntando lo siguiente:
+- sexo (1 = masculino, 2 = femenino)
+- si trabaja (1 = sí trabaja, 2 = no trabaja)
+- sueldo, que estará entre 600 y 2000 (valor entero). Si no tiene trabajo, el valor de sueldo será 0.
 
-Calcula y muestra lo siguiente:
-- Porcentaje de hombres (tengan o no trabajo)
-- Porcentaje de mujeres (tengan o no trabajo)
-- Porcentaje de hombres que trabajan
-- Porcentaje de mujeres que trabajan
-- El sueldo promedio de los hombres que trabajan
-- El sueldo promedio de las mujeres que trabajan
+Generar los valores pueden ser generados aleatoriamente.
+
+Calcular y mostrar lo siguiente:
+- % de hombres
+- % de mujeres
+- % de hombres que trabajan
+- % de mujeres que trabajan
+- Sueldo promedio de hombres que trabajan
+- Sueldo promedio de mujeres que trabajan
