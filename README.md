@@ -165,7 +165,7 @@ El juego debe pedir las posiciones donde el jugador actual quiera poner su marca
 
 Realizar el juego de forma modular (métodos y funciones).
 
-10) Crear dos arrays multidimensionales de 2×3 y rellenarlos como se desee (números aleatorios, por teclado o definido al crear el array).
+10) Crear dos arrays multidimensionales de 3×3 y rellenarlos como se desee (números aleatorios, por teclado o definido al crear el array).
 
 Hacer un método que sume los arrays multidimensionales, es decir, la posición 0,0 del array1 con la posición 0,0 del array2, y así sucesivamente. Este método no debe devolver nada, haciendo que deba pasarse 3 array multidimensional como parámetro (los 2 que se suman y en el que se guarda la suma).
 
