@@ -62,14 +62,15 @@ public class Matriz3enraya
             {
                 salir = true;
                 dimeGanador(tablero);
+                mostrarTablero(tablero);
             }
             
-            if ( checkTablero(tablero) == true )
-                {
-                    salir = true;
-                    System.out.println("\nNo quedan posiciones sin colocar y nadie ha ganado\n");
-                    mostrarTablero(tablero);
-                }
+            else if ( checkTablero(tablero) == true )
+            {
+                salir = true;
+                System.out.println("\nNo quedan posiciones sin colocar y nadie ha ganado\n");
+                mostrarTablero(tablero);
+            }
             
             // cambiar jugador
             pj = !pj;
@@ -269,102 +270,86 @@ public class Matriz3enraya
         if ( x[0][0]=='X' && x[0][1]=='X' && x[0][2]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         if ( x[1][0]=='X' && x[1][1]=='X' && x[1][2]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         if ( x[2][0]=='X' && x[2][1]=='X' && x[2][2]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         // columnas pj 1
         if ( x[0][0]=='X' && x[1][0]=='X' && x[2][0]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         if ( x[0][1]=='X' && x[1][1]=='X' && x[2][1]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         if ( x[0][2]=='X' && x[1][2]=='X' && x[2][2]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         // diagonales pj 1
         if ( x[0][0]=='X' && x[1][1]=='X' && x[2][2]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         if ( x[0][2]=='X' && x[1][1]=='X' && x[2][0]=='X' )
         {
             System.out.println("\nHa ganado el jugador 1\n");
-            mostrarTablero(x);
         }
         
         // filas pj 2
         if ( x[0][0]=='O' && x[0][1]=='O' && x[0][2]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
         
         if ( x[1][0]=='O' && x[1][1]=='O' && x[1][2]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
         
         if ( x[2][0]=='O' && x[2][1]=='O' && x[2][2]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
         
         // columnas pj 2
         if ( x[0][0]=='O' && x[1][0]=='O' && x[2][0]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
         
         if ( x[0][1]=='O' && x[1][1]=='O' && x[2][1]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
         
         if ( x[0][2]=='O' && x[1][2]=='O' && x[2][2]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
         
         // diagonales pj 2
         if ( x[0][0]=='O' && x[1][1]=='O' && x[2][2]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
         
         if ( x[0][2]=='O' && x[1][1]=='O' && x[2][0]=='O' )
         {
             System.out.println("\nHa ganado el jugador 2\n");
-            mostrarTablero(x);
         }
     }
     
