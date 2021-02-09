@@ -189,3 +189,21 @@ Calcular y mostrar lo siguiente:
 - % de mujeres que trabajan
 - Sueldo promedio de hombres que trabajan
 - Sueldo promedio de mujeres que trabajan
+## Métodos y funciones
+1) Crear una aplicación que calcule el área de un círculo ( (radio^2)*PI ), cuadrado (lado * lado) o triangulo ( (base * altura) / 2 ). Pedir de qué figura se calcula su área y, según la elegida, pedir los valores necesarios para calcular el área.
+
+Crear un método por calcular el área de cada figura. Usar número reales. Mostrar el resultado por pantalla.
+
+2) Crear una aplicación que genere una cantidad (solicitada por teclado) de números enteros aleatorios. Crear un método al que se le pase entre qué números (pedir por teclado) se generarán los aleatorios. Mostrar estos números por pantalla.
+
+3) Crear una aplicación que pida un número por teclado, pasárselo a un método como parámetro y que éste indique si es o no un número primo. El método debe devolver true si es primo, sino false.
+
+Un número primo es aquel que solo puede dividirse entre 1 y sí mismo. Para saber si es primo, calcular la raíz cuadrada del número e ir comprobando si es divisible desde ese número hasta 1. En caso negativo, no es primo. 
+
+4) Crear una aplicación que calcule el factorial de un número pedido por teclado. Hacer un método que recibe el número como parámetro. Para calcular el factorial, se multiplica el mismo número por todos los números anteriores hasta llegar a uno.
+
+5) Crear una aplicación que nos convierta un número en base decimal a binario, mediante un método al que se le pasa el numero como parámetro, devolverá un String con el número convertido a binario. Para convertir un número decimal a binario, el decimal se divide entre 2 y el resultado de esa división se divide entre 2 de nuevo hasta que no se pueda dividir más. El resto de cada división formará el número binario, de tal manera que el primer resto ocupará la posición de las unidades en el binario, el segundo resto la de los decimales, etc.
+
+6) Crear un método que cuente el número de cifras de un número entero positivo (hay que controlarlo) pedido por teclado. El método debe recibir el entero positivo como parámetro y devolver el número de cifras.
+
+7) Crear un método que convierta una cantidad de euros introducida por teclado a otra moneda (dólares, yenes o libras). El método tendrá como parámetros la cantidad de euros y la moneda (cadena), y no devolverá ningún valor, sino que debe mostrar un mensaje indicando el cambio (void).
