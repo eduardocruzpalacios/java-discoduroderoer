@@ -196,7 +196,7 @@ Crear un método por calcular el área de cada figura. Usar número reales. Most
 
 2) Crear una aplicación que genere una cantidad (solicitada por teclado) de números enteros aleatorios. Crear un método al que se le pase entre qué números (pedir por teclado) se generarán los aleatorios. Mostrar estos números por pantalla.
 
-3) Crear una aplicación que pida un número por teclado, pasárselo a un método como parámetro y que éste indique si es o no un número primo. El método debe devolver true si es primo, sino false.
+3) Crear una aplicación que pida un número por teclado, pasárselo a una función como parámetro y que ésta indique si es o no un número primo devolviendo un tipo de dato boolean.
 
 Un número primo es aquel que solo puede dividirse entre 1 y sí mismo. Para saber si es primo, calcular la raíz cuadrada del número e ir comprobando si es divisible desde ese número hasta 1. En caso negativo, no es primo. 
 
