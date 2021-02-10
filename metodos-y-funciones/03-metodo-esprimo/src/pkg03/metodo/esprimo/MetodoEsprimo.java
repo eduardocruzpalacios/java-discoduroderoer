@@ -18,7 +18,7 @@ public class MetodoEsprimo
         }
     }
     
-    // función devuelve int
+    // función devuelve Real
     public static double dameNum()
     {
         Scanner t = new Scanner(System.in);
