@@ -57,6 +57,7 @@ public class FuncionDecimalABinario
         // calcular longitud binario - 1
         int longitudBinario = binarioReves.length() - 1;
         
+        // darle l vuelta al String y guardarlo en otro
         for (int i = longitudBinario ; i >= 0 ; i--)
         {
             binario += binarioReves.charAt(longitudBinario);

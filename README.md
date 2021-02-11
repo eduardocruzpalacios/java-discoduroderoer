@@ -202,6 +202,6 @@ Crear un método por calcular el área de cada figura. Usar número reales. Most
 
 5) Crear una aplicación que nos convierta un número en base decimal a binario, mediante una función a la que se le pasa un número en base decimal como parámetro y devuelve un String con el número convertido a binario.
 
-6) Crear un método que cuente el número de cifras de un número entero positivo (hay que controlarlo) pedido por teclado. El método debe recibir el entero positivo como parámetro y devolver el número de cifras.
+6) Crear una función que cuente el número de cifras de un número entero positivo (hay que controlarlo) pedido por teclado, recibiendo el entero positivo como parámetro y devolviendo el número de cifras.
 
 7) Crear un método que convierta una cantidad de euros introducida por teclado a otra moneda (dólares, yenes o libras). El método tendrá como parámetros la cantidad de euros y la moneda (cadena), y no devolverá ningún valor, sino que debe mostrar un mensaje indicando el cambio (void).
