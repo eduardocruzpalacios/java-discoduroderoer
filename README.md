@@ -198,11 +198,9 @@ Crear un método por calcular el área de cada figura. Usar número reales. Most
 
 3) Crear una aplicación que pida un número por teclado, pasárselo a una función como parámetro y que ésta indique si es o no un número primo devolviendo un tipo de dato boolean.
 
-Un número primo es aquel que solo puede dividirse entre 1 y sí mismo. Para saber si es primo, calcular la raíz cuadrada del número e ir comprobando si es divisible desde ese número hasta 1. En caso negativo, no es primo. 
-
 4) Crear una aplicación que calcule el factorial de un número pedido por teclado. Hacer un método que recibe el número como parámetro. Para calcular el factorial, se multiplica el mismo número por todos los números anteriores hasta llegar a uno.
 
-5) Crear una aplicación que nos convierta un número en base decimal a binario, mediante un método al que se le pasa el numero como parámetro, devolverá un String con el número convertido a binario. Para convertir un número decimal a binario, el decimal se divide entre 2 y el resultado de esa división se divide entre 2 de nuevo hasta que no se pueda dividir más. El resto de cada división formará el número binario, de tal manera que el primer resto ocupará la posición de las unidades en el binario, el segundo resto la de los decimales, etc.
+5) Crear una aplicación que nos convierta un número en base decimal a binario, mediante una función a la que se le pasa un número en base decimal como parámetro y devuelve un String con el número convertido a binario.
 
 6) Crear un método que cuente el número de cifras de un número entero positivo (hay que controlarlo) pedido por teclado. El método debe recibir el entero positivo como parámetro y devolver el número de cifras.
 
