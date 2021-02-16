@@ -1,6 +1,8 @@
 package pkg02.pkgif.comparar;
-public class IfComparar {
-    public static void main(String[] args) {
+public class IfComparar
+{
+    public static void main(String[] args)
+    {
         double num1 = 15.4;
         double num2 = 15.4;
         

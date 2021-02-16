@@ -1,7 +1,9 @@
 package pkg20.primo.noprimo.usandoraizcuadrada;
 import java.util.Scanner;
-public class PrimoNoprimoUsandoraizcuadrada {
-    public static void main(String[] args) {
+public class PrimoNoprimoUsandoraizcuadrada
+{
+    public static void main(String[] args)
+    {
         // instanciar clase Scanner
         Scanner t = new Scanner(System.in);
         // declarar dónde se guarda input usuario

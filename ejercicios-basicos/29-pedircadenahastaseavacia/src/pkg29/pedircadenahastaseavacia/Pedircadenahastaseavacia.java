@@ -1,7 +1,9 @@
 package pkg29.pedircadenahastaseavacia;
 import java.util.Scanner;
-public class Pedircadenahastaseavacia {
-    public static void main(String[] args) {
+public class Pedircadenahastaseavacia
+{
+    public static void main(String[] args)
+    {
         Scanner t = new Scanner(System.in);
         String cadena;
         String cadena_total = "";

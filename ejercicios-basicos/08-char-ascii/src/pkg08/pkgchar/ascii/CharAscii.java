@@ -1,7 +1,9 @@
 package pkg08.pkgchar.ascii;
 import java.util.Scanner;
-public class CharAscii {
-    public static void main(String[] args) {
+public class CharAscii
+{
+    public static void main(String[] args)
+    {
         // pedir char por teclado
         Scanner t = new Scanner(System.in);
         System.out.println("Introduce un carácter de la tabla ASCII");

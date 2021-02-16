@@ -52,5 +52,4 @@ public class MetodoNumerosaleatorios
             System.out.println(vector[i]);
         }
     }
-    
 }

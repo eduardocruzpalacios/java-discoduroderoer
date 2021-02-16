@@ -1,7 +1,9 @@
 package pkg18.pedir2int.generaraleatorioenmedio;
 import java.util.Scanner;
-public class Pedir2intGeneraraleatorioenmedio {
-    public static void main(String[] args) {
+public class Pedir2intGeneraraleatorioenmedio
+{
+    public static void main(String[] args)
+    {
         Scanner t = new Scanner(System.in);
         double input1,input2,random;
         

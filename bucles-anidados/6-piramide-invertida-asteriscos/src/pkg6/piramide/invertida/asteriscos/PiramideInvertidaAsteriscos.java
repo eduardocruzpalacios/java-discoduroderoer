@@ -1,7 +1,9 @@
 package pkg6.piramide.invertida.asteriscos;
 import java.util.Scanner;
-public class PiramideInvertidaAsteriscos {
-    public static void main(String[] args) {
+public class PiramideInvertidaAsteriscos
+{
+    public static void main(String[] args)
+    {
         // instanciar clase Scanner y declarar altura y espacios
         Scanner t = new Scanner(System.in);
         int altura;

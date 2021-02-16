@@ -1,6 +1,8 @@
 package pkg24.string.a.ascii;
-public class StringAAscii {
-    public static void main(String[] args) {
+public class StringAAscii
+{
+    public static void main(String[] args)
+    {
         String txt= "La lluvia en Sevilla es una maravilla";
         char caracter;
         int codigo;

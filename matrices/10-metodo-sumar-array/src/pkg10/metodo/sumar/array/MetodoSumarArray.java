@@ -1,6 +1,8 @@
 package pkg10.metodo.sumar.array;
-public class MetodoSumarArray {
-    public static void main(String[] args) {
+public class MetodoSumarArray
+{
+    public static void main(String[] args)
+    {
         // tamaño matrices
         int tm = 3;
         
@@ -72,5 +74,4 @@ public class MetodoSumarArray {
             }
         }
     }
-    
 }

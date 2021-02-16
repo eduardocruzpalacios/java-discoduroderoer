@@ -36,9 +36,9 @@ public class PedirnumerosHacercalculosHasta1
             input = t.nextInt();
             // calcular suma total (no tiene en cuenta -1)
             if(input != -1)
-                {
+            {
                     suma_total += input;
-                }
+            }
             // calcular suma positivos
             if (input > 0)
             {

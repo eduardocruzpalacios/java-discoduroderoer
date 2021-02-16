@@ -52,7 +52,6 @@ public class Relojdigital
                     }
                 }
             }
- 
             Thread.sleep(1000);
         }
     }

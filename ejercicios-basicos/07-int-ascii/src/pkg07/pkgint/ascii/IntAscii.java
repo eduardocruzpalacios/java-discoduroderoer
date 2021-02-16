@@ -1,7 +1,9 @@
 package pkg07.pkgint.ascii;
 import javax.swing.JOptionPane;
-public class IntAscii {
-    public static void main(String[] args) {
+public class IntAscii
+{
+    public static void main(String[] args)
+    {
         String texto = JOptionPane.showInputDialog("Introduce un código de la tabla ASCII");
         System.out.println("Texto introducido por usuario: "+texto);
         // String --> int

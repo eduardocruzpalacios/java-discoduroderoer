@@ -1,7 +1,9 @@
 package pkg37.enummes;
 import java.util.Scanner;
-public class Enummes {
-    public static void main(String[] args) {
+public class Enummes
+{
+    public static void main(String[] args)
+    {
         Scanner t = new Scanner(System.in);
         
         // instanciar enum Meses con nombre mes3 y tenga propiedades MARZO (orden 3, numDias 31)

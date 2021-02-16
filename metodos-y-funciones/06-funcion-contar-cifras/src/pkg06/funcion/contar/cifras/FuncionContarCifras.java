@@ -36,5 +36,4 @@ public class FuncionContarCifras
         
         return cadena.length();
     }
-    
 }

@@ -1,7 +1,9 @@
 package pkg19.pedirintpositivo.calcularnumerocifras;
 import java.util.Scanner;
-public class PedirintpositivoCalcularnumerocifras {
-    public static void main(String[] args) {
+public class PedirintpositivoCalcularnumerocifras
+{
+    public static void main(String[] args)
+    {
         // declarar e iniciar
         Scanner t = new Scanner(System.in);
         int input;

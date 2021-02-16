@@ -74,7 +74,6 @@ public class Matriz3x3RellenarAutomaticamenteSinRepetir
                     numero_elementos++;
                 }
             }
-             
             return numeros;
     }
 }

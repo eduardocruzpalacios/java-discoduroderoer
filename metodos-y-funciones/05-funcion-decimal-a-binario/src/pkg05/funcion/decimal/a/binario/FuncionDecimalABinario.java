@@ -66,5 +66,4 @@ public class FuncionDecimalABinario
         
         return binario;
     }
-    
 }

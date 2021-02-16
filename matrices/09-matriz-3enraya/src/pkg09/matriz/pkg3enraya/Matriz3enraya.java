@@ -352,5 +352,4 @@ public class Matriz3enraya
             System.out.println("\nHa ganado el jugador 2\n");
         }
     }
-    
 }

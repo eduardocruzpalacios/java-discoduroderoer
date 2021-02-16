@@ -1,7 +1,9 @@
 package pkg16.pedircontrasena.pkg3intentos;
 import java.util.Scanner;
-public class Pedircontrasena3intentos {
-    public static void main(String[] args) {
+public class Pedircontrasena3intentos
+{
+    public static void main(String[] args)
+    {
         Scanner t = new Scanner(System.in);
         
         String pass1, pass2;

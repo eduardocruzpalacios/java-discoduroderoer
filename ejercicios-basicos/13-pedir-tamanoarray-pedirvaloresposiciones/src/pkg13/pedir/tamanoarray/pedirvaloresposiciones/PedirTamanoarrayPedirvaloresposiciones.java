@@ -1,7 +1,9 @@
 package pkg13.pedir.tamanoarray.pedirvaloresposiciones;
 import java.util.Scanner;
-public class PedirTamanoarrayPedirvaloresposiciones {
-    public static void main(String[] args) {
+public class PedirTamanoarrayPedirvaloresposiciones
+{
+    public static void main(String[] args)
+    {
         // pedir nº posiciones Array
         Scanner t = new Scanner(System.in);
         System.out.println("Dame un entero que será el número de ventas");

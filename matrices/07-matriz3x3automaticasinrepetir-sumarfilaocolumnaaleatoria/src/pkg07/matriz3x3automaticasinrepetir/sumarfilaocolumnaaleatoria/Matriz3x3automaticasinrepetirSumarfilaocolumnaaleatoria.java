@@ -2,7 +2,8 @@ package pkg07.matriz3x3automaticasinrepetir.sumarfilaocolumnaaleatoria;
 import java.util.Arrays;
 public class Matriz3x3automaticasinrepetirSumarfilaocolumnaaleatoria
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // matriz 3x3 de momento posiciones vacías
         int[][] matriz = new int [3][3];
         
@@ -81,7 +82,8 @@ public class Matriz3x3automaticasinrepetirSumarfilaocolumnaaleatoria
     }
     
     // función que pide longitud y devuelve vector con números aleatorios que no se repiten 
-    public static int[] generarNumerosAleatoriosSinRepetir(int longitud){
+    public static int[] generarNumerosAleatoriosSinRepetir(int longitud)
+    {
             // cuenta números no iguales
             int numero_elementos = 0;
             // definir vector que la función devolverá
@@ -117,7 +119,6 @@ public class Matriz3x3automaticasinrepetirSumarfilaocolumnaaleatoria
                     numero_elementos++;
                 }
             }
-             
             return numeros;
     }
 }

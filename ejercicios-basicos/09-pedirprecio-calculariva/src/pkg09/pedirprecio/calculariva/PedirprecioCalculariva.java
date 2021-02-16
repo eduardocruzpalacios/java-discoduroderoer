@@ -1,7 +1,9 @@
 package pkg09.pedirprecio.calculariva;
 import java.util.Scanner;
-public class PedirprecioCalculariva {
-    public static void main(String[] args) {
+public class PedirprecioCalculariva
+{
+    public static void main(String[] args)
+    {
         final double iva = 1.21;
         // pedir precio
         Scanner t = new Scanner(System.in);

@@ -1,6 +1,8 @@
 package pkg22.contarvocalescadena;
-public class Contarvocalescadena {
-    public static void main(String[] args) {
+public class Contarvocalescadena
+{
+    public static void main(String[] args)
+    {
         // declarar variables
         String t = "La lluvia en Sevilla es una maravilla";
         char a; // comparar si es vocal

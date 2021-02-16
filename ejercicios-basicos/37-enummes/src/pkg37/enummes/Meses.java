@@ -1,5 +1,6 @@
 package pkg37.enummes;
-public enum Meses {
+public enum Meses
+{
     ENERO(1,31),
     FEBRERO(2,28),
     MARZO(3,31),

@@ -36,5 +36,4 @@ public class MetodoFactorial
         }
         System.out.println(" es "+x);
     }
-    
 }

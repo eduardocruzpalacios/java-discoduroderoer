@@ -1,5 +1,6 @@
 package pkg34.string.separarpalabras;
-public class StringSepararpalabras {
+public class StringSepararpalabras
+{
     public static void main(String[] args)
     {
         String frase = "Escribe una frase. Hola, Bb + Aa [jj, 447]";

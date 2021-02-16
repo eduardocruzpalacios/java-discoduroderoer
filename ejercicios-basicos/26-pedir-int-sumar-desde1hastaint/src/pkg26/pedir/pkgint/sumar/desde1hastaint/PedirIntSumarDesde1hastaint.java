@@ -1,7 +1,9 @@
 package pkg26.pedir.pkgint.sumar.desde1hastaint;
 import java.util.Scanner;
-public class PedirIntSumarDesde1hastaint {
-    public static void main(String[] args) {
+public class PedirIntSumarDesde1hastaint
+{
+    public static void main(String[] args)
+    {
         Scanner t = new Scanner(System.in);
         int num;
         

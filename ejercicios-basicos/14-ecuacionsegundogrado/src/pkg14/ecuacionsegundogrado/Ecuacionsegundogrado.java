@@ -1,7 +1,9 @@
 package pkg14.ecuacionsegundogrado;
 import java.util.Scanner;
-public class Ecuacionsegundogrado {
-    public static void main(String[] args) {
+public class Ecuacionsegundogrado
+{
+    public static void main(String[] args)
+    {
         // declarar variables
         double a, b, c, discriminante, raiz, x1, x2;
         Scanner t = new Scanner(System.in);

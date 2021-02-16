@@ -1,7 +1,9 @@
 package pkg32.pedirstring.soniguales;
 import java.util.Scanner;
-public class PedirstringSoniguales {
-    public static void main(String[] args) {
+public class PedirstringSoniguales
+{
+    public static void main(String[] args)
+    {
         Scanner t = new Scanner(System.in);
         
         System.out.println("Dame texto 1");

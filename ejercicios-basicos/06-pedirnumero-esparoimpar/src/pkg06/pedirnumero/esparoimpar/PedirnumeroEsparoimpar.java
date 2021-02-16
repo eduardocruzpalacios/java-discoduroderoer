@@ -1,7 +1,9 @@
 package pkg06.pedirnumero.esparoimpar;
 import java.util.Scanner;
-public class PedirnumeroEsparoimpar {
-    public static void main(String[] args) {
+public class PedirnumeroEsparoimpar
+{
+    public static void main(String[] args)
+    {
         // pedir número
         Scanner t = new Scanner(System.in);
         System.out.println("Introduce un número");

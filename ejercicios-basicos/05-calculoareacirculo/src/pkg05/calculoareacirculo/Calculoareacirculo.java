@@ -1,7 +1,9 @@
 package pkg05.calculoareacirculo;
 import javax.swing.JOptionPane;
-public class Calculoareacirculo {
-    public static void main(String[] args) {
+public class Calculoareacirculo
+{
+    public static void main(String[] args)
+    {
         // pedir radio
         String input = JOptionPane.showInputDialog("Introduce un radio");
         // String --> double
